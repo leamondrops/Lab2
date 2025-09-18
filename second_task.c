@@ -1,15 +1,25 @@
 #include <stdio.h>
-#include ? ? ?
+#include <math.h>
 
 int main()
 {
-    // declare variables<-- These are comments, you can remove them if you want to
+    int x1, y1, x2, y2;
 
-    // get user input
+    printf("Give x1: ");
+    scanf("%d", &x1);
 
-    // calculate the length
+    printf("Give y1: ");
+    scanf("%d", &y1);
 
-    // print the result
+    printf("Give x2: ");
+    scanf("%d", &x2);
+
+    printf("Give y2: ");
+    scanf("%d", &y2);
+
+    float dist = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
+
+    printf("%fn", dist);
 
     return 0;
 }
